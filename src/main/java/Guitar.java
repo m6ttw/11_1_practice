@@ -13,4 +13,8 @@ public class Guitar {
         return this.make;
     }
 
+    public String getModel(){
+        return this.model;
+    }
+
 }
