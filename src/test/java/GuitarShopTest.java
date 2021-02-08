@@ -20,4 +20,10 @@ public class GuitarShopTest {
     public void hasTill(){
         assertEquals(20000, guitarShop.getTill());
     }
+
+    @Test
+    public void hasStock(){
+        String[] result = new String[] {};
+        assertEquals(result, guitarShop.getStock());
+    }
 }
