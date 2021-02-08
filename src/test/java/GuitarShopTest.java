@@ -15,4 +15,9 @@ public class GuitarShopTest {
     public void hasName(){
         assertEquals("Matt's Music", guitarShop.getName());
     }
+
+    @Test
+    public void hasTill(){
+        assertEquals(20000, guitarShop.getTill());
+    }
 }

@@ -13,4 +13,8 @@ public class GuitarShop {
     public String getName() {
         return this.name;
     }
+
+    public int getTill() {
+        return this.till;
+    }
 }
