@@ -1,7 +1,7 @@
 public class Guitar {
     private String make;
     private String model;
-    private int price;
+    public int price;
 
     public Guitar(String make, String model, int price){
         this.make = make;
