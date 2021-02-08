@@ -20,5 +20,4 @@ public class Guitar {
     public int getPrice(){
         return this.price;
     }
-
 }

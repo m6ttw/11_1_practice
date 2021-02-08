@@ -29,5 +29,4 @@ public class GuitarTest {
     public void hasPrice(){
         assertEquals(1000, telecaster.getPrice());
     }
-
 }
